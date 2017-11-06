@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aa21d5f-45e9-4782-b77e-fb2861db6c90" name="Default" comment="" />
+    <list default="true" id="6aa21d5f-45e9-4782-b77e-fb2861db6c90" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs_bird/hidden.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs_bird/readout.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2880000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2880000.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2890000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2890000.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2900000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2900000.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2910000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2910000.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2920000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/bird-dqn-2920000.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/checkpoint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_networks/pretrained_model/bird-dqn-policy" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dqn.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dqn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dqn.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="516">
@@ -24,6 +41,16 @@
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,6 +120,7 @@
         <option value="$PROJECT_DIR$/rf.py" />
         <option value="$PROJECT_DIR$/game/wrapped_flappy_bird.py" />
         <option value="$PROJECT_DIR$/dqn.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -126,6 +154,9 @@
         </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -501,6 +532,14 @@
           <folding>
             <element signature="e#24#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
