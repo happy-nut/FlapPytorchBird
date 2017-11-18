@@ -14,7 +14,7 @@ SCREENHEIGHT = 512
 pygame.init()
 FPSCLOCK = pygame.time.Clock()
 SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
-pygame.display.set_caption('Flappy Bird')
+# pygame.display.set_caption('Flappy Bird')
 
 IMAGES, SOUNDS, HITMASKS = flappy_bird_utils.load()
 PIPEGAPSIZE = 100 # gap between upper and lower part of pipe
@@ -30,7 +30,9 @@ PLAYER_INDEX_GEN = cycle([0, 1, 2, 1])
 
 
 class GameState:
-    def __init__(self):
+    def __init__(self, init_prev_score=True):
+        if init_prev_score:
+            self.prev_score = 0
         self.score = self.playerIndex = self.loopIter = 0
         self.playerx = int(SCREENWIDTH * 0.2)
         self.playery = int((SCREENHEIGHT - PLAYER_HEIGHT) / 2)
@@ -57,10 +59,13 @@ class GameState:
         self.playerFlapAcc =  -9   # players speed on flapping
         self.playerFlapped = False # True when player flaps
 
+    def getScore(self):
+        return self.score
+
     def frame_step(self, input_actions):
         pygame.event.pump()
 
-        reward = 0.1
+        reward = 0
         terminal = False
         if sum(input_actions) != 1:
             raise ValueError('Multiple input actions!')
@@ -121,10 +126,9 @@ class GameState:
             #SOUNDS['hit'].play()
             #SOUNDS['die'].play()
             terminal = True
-            self.__init__()
+            self.prev_score = self.score
+            self.__init__(init_prev_score=False)
             reward = -1
-            if self.score != 0:
-                print(self.score)
 
         # draw sprites
         SCREEN.blit(IMAGES['background'], (0,0))
@@ -136,12 +140,11 @@ class GameState:
         SCREEN.blit(IMAGES['base'], (self.basex, BASEY))
         # print score so player overlaps the score
         #showScore(self.score)
-        SCREEN.blit(IMAGES['player'][self.playerIndex],
-                    (self.playerx, self.playery))
+        SCREEN.blit(IMAGES['player'][self.playerIndex], (self.playerx, self.playery))
 
         image_data = pygame.surfarray.array3d(pygame.display.get_surface())
-        pygame.display.update()
-        FPSCLOCK.tick(FPS)
+        # pygame.display.update()
+        # FPSCLOCK.tick(FPS)
         #print self.upperPipes[0]['y'] + PIPE_HEIGHT - int(BASEY * 0.2)
         return image_data, reward, terminal
 
