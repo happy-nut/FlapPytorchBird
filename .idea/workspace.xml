@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aa21d5f-45e9-4782-b77e-fb2861db6c90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_network.pt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dqn.py" afterPath="$PROJECT_DIR$/dqn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/wrapped_flappy_bird.py" afterPath="$PROJECT_DIR$/game/wrapped_flappy_bird.py" />
     </list>
@@ -16,62 +16,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FlapPytorchBird$dqn.coverage" NAME="dqn Coverage Results" MODIFIED="1510899885063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlapPytorchBird$dqn.coverage" NAME="dqn Coverage Results" MODIFIED="1511745814489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlapPytorchBird$dqn_eval_debug.coverage" NAME="dqn eval debug Coverage Results" MODIFIED="1511742056634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearningFlappyBird$dqn.coverage" NAME="dqn Coverage Results" MODIFIED="1510146099237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearningFlappyBird$deep_q_network.coverage" NAME="deep_q_network Coverage Results" MODIFIED="1509336942549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearningFlappyBird$rf.coverage" NAME="rf Coverage Results" MODIFIED="1509471158252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlapPytorchBird$dqn_eval.coverage" NAME="dqn eval Coverage Results" MODIFIED="1511742067666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="dqn.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dqn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
-              <caret line="204" column="27" lean-forward="true" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
+            <state relative-caret-position="342">
+              <caret line="256" column="0" lean-forward="true" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
               <folding>
                 <element signature="e#24#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loss.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/loss.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="284" column="31" lean-forward="true" selection-start-line="284" selection-start-column="31" selection-end-line="284" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functional.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/functional.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="817" column="4" lean-forward="false" selection-start-line="817" selection-start-column="4" selection-end-line="817" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/visdom/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="598" column="0" lean-forward="true" selection-start-line="598" selection-start-column="0" selection-end-line="598" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wrapped_flappy_bird.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/wrapped_flappy_bird.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,36 +48,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ad</find>
-      <find>optimizer</find>
-      <find>reward</find>
-      <find>target_Q</find>
-      <find>volatile</find>
-      <find>pygame</find>
-      <find>update</find>
-      <find>score</find>
-      <find>interac</find>
-      <find>if not</find>
-      <find>initVisWindows</find>
-      <find>temp</find>
-      <find>frame_step</find>
-      <find>max</find>
-      <find>max_Q</find>
-      <find>type(</find>
-      <find>.type</find>
-      <find>terminateinp</find>
-      <find>getscore</find>
-      <find>Y=</find>
-      <find>% vis_update</find>
-      <find>vis.line</find>
-      <find>vis.line(</find>
-      <find>eps_window</find>
-      <find>append</find>
-      <find>prev_scre</find>
-      <find>print(</find>
-      <find>&lt; 40</find>
-      <find>Q =</find>
+      <find>C</find>
       <find>criterion</find>
+      <find>MOMENTUM</find>
+      <find>RM</find>
+      <find>RMS</find>
+      <find>0.1</find>
+      <find>BATCH_SIZE</find>
+      <find>print(readout)</find>
+      <find>relu(</find>
+      <find>readout</find>
+      <find>plt.show()</find>
+      <find>10000</find>
+      <find>print(readout</find>
+      <find>import code</find>
+      <find>plt.show</find>
+      <find>epsilon</find>
+      <find>game.gamestate</find>
+      <find>gamestate</find>
+      <find>self.__init</find>
+      <find>clock.</find>
+      <find>self.args =</find>
+      <find>args.eval</find>
+      <find>vis.line</find>
+      <find>% 200</find>
+      <find>episode_update</find>
+      <find>max_q_sum =</find>
+      <find>select_action</find>
+      <find>rms</find>
+      <find>max</find>
+      <find>interac</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,8 +90,8 @@
         <option value="$PROJECT_DIR$/rf.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/visdom/server.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/saved_network.pt" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/game/wrapped_flappy_bird.py" />
         <option value="$PROJECT_DIR$/dqn.py" />
         <option value="$PROJECT_DIR$/dqn.py" />
@@ -144,7 +104,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-371" />
     <option name="y" value="182" />
     <option name="width" value="1400" />
@@ -195,6 +155,16 @@
             <path>
               <item name="FlapPytorchBird" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlapPytorchBird" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlapPytorchBird" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlapPytorchBird" type="462c0819:PsiDirectoryNode" />
+              <item name="backup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlapPytorchBird" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlapPytorchBird" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,6 +349,42 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="dqn eval debug" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FlapPytorchBird" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dqn.py" />
+      <option name="PARAMETERS" value="--eval --debug" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="dqn eval" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FlapPytorchBird" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dqn.py" />
+      <option name="PARAMETERS" value="--eval" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="dqn" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,10 +421,12 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.dqn" />
-      <item index="1" class="java.lang.String" itemvalue="Python.deep_q_network" />
-      <item index="2" class="java.lang.String" itemvalue="Python.rf" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dqn eval" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dqn eval debug" />
+      <item index="3" class="java.lang.String" itemvalue="Python.deep_q_network" />
+      <item index="4" class="java.lang.String" itemvalue="Python.rf" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -444,14 +452,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12238148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12679163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23566215" sideWeight="0.5022051" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2346194" sideWeight="0.49779493" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -499,30 +507,7 @@
     <entry file="file://$PROJECT_DIR$/game/wrapped_flappy_bird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dqn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/wrapped_flappy_bird.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
           <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,9 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,9 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2466">
           <caret line="144" column="30" lean-forward="false" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2466">
           <caret line="144" column="30" lean-forward="false" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2466">
           <caret line="144" column="30" lean-forward="false" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
           <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,9 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
           <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2124">
           <caret line="125" column="31" lean-forward="true" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="79" column="54" lean-forward="false" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="126" column="16" lean-forward="false" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,9 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="126" column="16" lean-forward="false" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/conv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="253" column="0" lean-forward="false" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sprites/redbird-upflap.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -824,17 +772,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/visdom/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="568" column="9" lean-forward="false" selection-start-line="568" selection-start-column="9" selection-end-line="568" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saved_network.pt" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/visdom/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10440">
+          <caret line="598" column="0" lean-forward="false" selection-start-line="598" selection-start-column="0" selection-end-line="598" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5022">
+          <caret line="284" column="31" lean-forward="false" selection-start-line="284" selection-start-column="31" selection-end-line="284" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -846,80 +802,81 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <first_editor relative-caret-position="234">
+            <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/game/wrapped_flappy_bird.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="253" column="0" lean-forward="false" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="3079" column="0" lean-forward="false" selection-start-line="3079" selection-start-column="0" selection-end-line="3079" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="1709" column="0" lean-forward="false" selection-start-line="1709" selection-start-column="0" selection-end-line="1709" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="228">
           <caret line="5193" column="0" lean-forward="false" selection-start-line="5193" selection-start-column="0" selection-end-line="5193" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/matplotlib/image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="228">
           <caret line="599" column="0" lean-forward="false" selection-start-line="599" selection-start-column="0" selection-end-line="599" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saved_network.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4536">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/visdom/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="598" column="0" lean-forward="true" selection-start-line="598" selection-start-column="0" selection-end-line="598" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/wrapped_flappy_bird.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="817" column="4" lean-forward="false" selection-start-line="817" selection-start-column="4" selection-end-line="817" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/autograd/variable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="859" column="6" lean-forward="true" selection-start-line="859" selection-start-column="6" selection-end-line="859" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="228">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/loss.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/module.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="284" column="31" lean-forward="true" selection-start-line="284" selection-start-column="31" selection-end-line="284" selection-end-column="31" />
+        <state relative-caret-position="228">
+          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dqn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="204" column="27" lean-forward="true" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
+        <state relative-caret-position="342">
+          <caret line="256" column="0" lean-forward="true" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding>
             <element signature="e#24#58#0" expanded="true" />
           </folding>

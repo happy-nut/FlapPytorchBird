@@ -30,9 +30,13 @@ PLAYER_INDEX_GEN = cycle([0, 1, 2, 1])
 
 
 class GameState:
-    def __init__(self, init_prev_score=True):
+    def __init__(self, args=None, init_prev_score=True):
         if init_prev_score:
             self.prev_score = 0
+
+        if args is not None:
+            self.args = args
+
         self.score = self.playerIndex = self.loopIter = 0
         self.playerx = int(SCREENWIDTH * 0.2)
         self.playery = int((SCREENHEIGHT - PLAYER_HEIGHT) / 2)
@@ -128,7 +132,7 @@ class GameState:
             terminal = True
             self.prev_score = self.score
             self.__init__(init_prev_score=False)
-            reward = -1
+            # reward = -0.1
 
         # draw sprites
         SCREEN.blit(IMAGES['background'], (0,0))
@@ -143,8 +147,11 @@ class GameState:
         SCREEN.blit(IMAGES['player'][self.playerIndex], (self.playerx, self.playery))
 
         image_data = pygame.surfarray.array3d(pygame.display.get_surface())
-        # pygame.display.update()
-        # FPSCLOCK.tick(FPS)
+
+        if self.args.eval:
+            pygame.display.update()
+            FPSCLOCK.tick(FPS)
+
         #print self.upperPipes[0]['y'] + PIPE_HEIGHT - int(BASEY * 0.2)
         return image_data, reward, terminal
 
