@@ -63,6 +63,13 @@ class GameState:
         self.playerFlapAcc =  -9   # players speed on flapping
         self.playerFlapped = False # True when player flaps
 
+
+    def scaleVel(self, vel):
+        vel_range = (self.playerMaxVelY - self.playerMinVelY)/2
+        result = self.playerVelY / vel_range
+        result = result/FPS
+        return result if result >= 0 else -result
+
     def getScore(self):
         return self.score
 
@@ -81,7 +88,7 @@ class GameState:
                 self.playerVelY = self.playerFlapAcc
                 self.playerFlapped = True
                 #SOUNDS['wing'].play()
-
+        reward = self.scaleVel(self.playerVelY)
         # check for score
         playerMidPos = self.playerx + PLAYER_WIDTH / 2
         for pipe in self.upperPipes:
@@ -90,6 +97,7 @@ class GameState:
                 self.score += 1
                 #SOUNDS['point'].play()
                 reward = 1
+                # print(self.scaleVel(self.playerVelY))
 
         # playerIndex basex change
         if (self.loopIter + 1) % 3 == 0:
@@ -127,8 +135,8 @@ class GameState:
                              'index': self.playerIndex},
                             self.upperPipes, self.lowerPipes)
         if isCrash:
-            #SOUNDS['hit'].play()
-            #SOUNDS['die'].play()
+            # SOUNDS['hit'].play()
+            # SOUNDS['die'].play()
             terminal = True
             self.prev_score = self.score
             self.__init__(init_prev_score=False)
@@ -143,7 +151,7 @@ class GameState:
 
         SCREEN.blit(IMAGES['base'], (self.basex, BASEY))
         # print score so player overlaps the score
-        #showScore(self.score)
+        # showScore(self.score)
         SCREEN.blit(IMAGES['player'][self.playerIndex], (self.playerx, self.playery))
 
         image_data = pygame.surfarray.array3d(pygame.display.get_surface())
