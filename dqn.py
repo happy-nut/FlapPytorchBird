@@ -219,8 +219,8 @@ def select_action(state):
 
         readout = Q(Variable(state.float().cuda(), volatile=True))
 
-        if args.eval:
-            print(readout)
+        # if args.eval:
+        #     print(readout)
 
         action_index = readout.max(1)[1].data[0]
 
@@ -392,7 +392,6 @@ if __name__ == '__main__':
             optimize_model()
 
             if reward_count % VIS_UPDATE_RATE == 0 and not args.eval:
-                print(1)
                 vis.line(Y=np.array([reward_sum / reward_count]),
                          X=np.array([steps_done]),
                          update='append',
